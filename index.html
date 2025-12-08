@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Photographer Portfolio showcasing landscape and portrait photography. Capturing moments, creating memories.">
+    <meta name="keywords" content="photography, portfolio, landscape, portrait, creative, photographer">
+    <meta name="author" content="Photographer Name">
+    <meta property="og:title" content="Photographer Portfolio | Capturing the World">
+    <meta property="og:description" content="Explore the world through my lens. Landscape and portrait photography portfolio.">
+    <meta property="og:image" content="assets/images/hero.jpg">
+    <meta property="og:type" content="website">
+    
+    <title>Lumina Lens | Professional Photography Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Happy Moments</a>
+            <button class="mobile-menu-btn" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link btn-featured">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title fade-in-up">Capturing Life's <br><span class="highlight">Golden Moments</span></h1>
+            <p class="hero-subtitle fade-in-up delay-1">Professional photography tailored to tell your unique story.</p>
+            <div class="hero-buttons fade-in-up delay-2">
+                <a href="#portfolio" class="btn btn-primary">View Work</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+        <!-- Background Image is handled in CSS but semantic image here for SEO if needed, strictly CSS bg for full coverage usually better for hero -->
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container about-container">
+            <div class="about-image reveal-left">
+                <img src="assets/images/about.jpg" alt="Photographer standing on a bridge in Zion National Park" loading="lazy">
+                <div class="experience-badge">
+                    <span class="years">5+</span>
+                    <span class="text">Years of<br>Experience</span>
+                </div>
+            </div>
+            <div class="about-text reveal-right">
+                <h2 class="section-title">About <span class="accent">Me</span></h2>
+                <h3 class="about-subtitle">Visual Storyteller & Adventure Seeker</h3>
+                <p>Hello! I'm a passionate photographer with a love for natural light and candid moments. My journey began in the grand landscapes of national parks, where I learned to appreciate the subtle interplay of light and shadow.</p>
+                <p>Whether it's a serene landscape or a vibrant portrait session, I strive to create images that evoke emotion and stand the test of time. I believe every picture tells a story, and I'm here to help you tell yours.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="150">0</span><span class="accent">+</span>
+                        <span class="stat-label">Projects Done</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="80">0</span><span class="accent">+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Selected <span class="accent">Works</span></h2>
+                <p class="section-desc">A collection of moments frozen in time, from breathtaking vistas to intimate portraits.</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item reveal-up">
+                    <div class="portfolio-img-wrapper">
+                        <img src="assets/images/portfolio1.jpg" alt="Group of friends enjoying a scenic view" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Adventure</h3>
+                                <p>Travel & Lifestyle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Doubling up images for grid demonstration since we have 3 portfolio specific images, reusing hero/about for variety or duplicates -->
+                <div class="portfolio-item reveal-up delay-1">
+                    <div class="portfolio-img-wrapper">
+                        <img src="assets/images/portfolio2.jpg" alt="Friends posing in front of mountain range" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Friendship</h3>
+                                <p>Group Portraits</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal-up delay-2">
+                    <div class="portfolio-img-wrapper">
+                        <img src="assets/images/portfolio3.jpg" alt="Close up group selfie in nature" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Memories</h3>
+                                <p>Candid Moments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal-up">
+                    <div class="portfolio-img-wrapper">
+                        <img src="assets/images/hero.jpg" alt="Scenic canyon view with person in foreground" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Wanderlust</h3>
+                                <p>Landscape</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">My <span class="accent">Services</span></h2>
+                <p class="section-desc">Professional photography packages designed to meet your needs.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card reveal-up">
+                    <i class="fas fa-camera-retro service-icon"></i>
+                    <h3>Portrait Photography</h3>
+                    <p>Professional headshots, senior portraits, and creative personal sessions that capture your true personality.</p>
+                </div>
+                <div class="service-card reveal-up delay-1">
+                    <i class="fas fa-mountain service-icon"></i>
+                    <h3>Landscape & Travel</h3>
+                    <p>Breath-taking scenic shots available for prints, licensing, or commissioned travel projects.</p>
+                </div>
+                <div class="service-card reveal-up delay-2">
+                    <i class="fas fa-users service-icon"></i>
+                    <h3>Events & Groups</h3>
+                    <p>coverage for small events, family gatherings, and group adventures to preserve special memories.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container contact-container">
+            <div class="contact-info reveal-left">
+                <h2 class="section-title">Let's Work <span class="accent">Together</span></h2>
+                <p>Have a project in mind? Looking to book a session? Feel free to reach out. I'm available for freelance work and collaborations.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope accent"></i>
+                        <span>hello@happy-moments.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone accent"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt accent"></i>
+                        <span>San Francisco, CA</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <form class="contact-form reveal-right" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="#">Lumina<span class="accent">.</span></a>
+            </div>
+            <p>&copy; 2025 Lumina Lens Photography. All rights reserved.</p>
+            <div class="scroll-top" id="scrollTop">
+                <i class="fas fa-arrow-up"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
